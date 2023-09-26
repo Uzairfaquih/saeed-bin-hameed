@@ -29,9 +29,9 @@ function NavBar() {
               About
             </Link>
             
-            <Link to="/services" className="nav-item nav-link ">
+            {/* <Link to="/services" className="nav-item nav-link ">
               Service
-            </Link>
+            </Link> */}
            
             <Link to="/project" className="nav-item nav-link ">
               Project
