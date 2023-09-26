@@ -4,7 +4,6 @@ import NavBar from "./NavBar";
 import Header from "./Header";
 import TopBar from "./TopBar";
 import Crousel from "./Crousel";
-// import Projects from "./Projects";
 import Features from "./Features";
 import AboutUsMain from "./subcomponents/aboutUs/AboutUsMain";
 import  ProjectMain  from "./subcomponents/project/ProjectMain";
