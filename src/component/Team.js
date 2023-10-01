@@ -19,8 +19,8 @@ const Team = () => {
                             </div>
                         </div>
                         <div className="text-center border border-5 border-light border-top-0 p-4">
-                            <h5 className="mb-0">Full Name</h5>
-                            <small>Designation</small>
+                            <h5 className="mb-0">Saeed I. Saeed</h5>
+                            <small>Administration Manager</small>
                         </div>
                     </div>
                 </div>
@@ -35,8 +35,8 @@ const Team = () => {
                             </div>
                         </div>
                         <div className="text-center border border-5 border-light border-top-0 p-4">
-                            <h5 className="mb-0">Full Name</h5>
-                            <small>Designation</small>
+                            <h5 className="mb-0">Nasrullah A. H. Kazi</h5>
+                            <small>Project Architect</small>
                         </div>
                     </div>
                 </div>
@@ -52,8 +52,8 @@ const Team = () => {
                             </div>
                         </div>
                         <div className="text-center border border-5 border-light border-top-0 p-4">
-                            <h5 className="mb-0">Full Name</h5>
-                            <small>Designation</small>
+                            <h5 className="mb-0">Ryan F. David</h5>
+                            <small>Project Manager</small>
                         </div>
                     </div>
                 </div>
@@ -68,8 +68,8 @@ const Team = () => {
                             </div>
                         </div>
                         <div className="text-center border border-5 border-light border-top-0 p-4">
-                            <h5 className="mb-0">Full Name</h5>
-                            <small>Designation</small>
+                            <h5 className="mb-0">Youssouf S. Soumare</h5>
+                            <small>Project Director</small>
                         </div>
                     </div>
                 </div>

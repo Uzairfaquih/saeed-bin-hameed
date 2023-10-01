@@ -23,10 +23,22 @@ const AboutUsMain = () => {
               <div className="section-title text-start">
                 <h1 className="display-5 mb-4">About Us</h1>
               </div>
-              <p className="mb-4 pb-2">
-                Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
-                Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
-                sed stet lorem sit clita duo justo erat amet
+              <p className="mb-4 pb-2 text-justify">
+                Saeed Bin Hamed Al Beladi Co. for Finishing Work excels in
+                delivering unparalleled craftsmanship across a spectrum of
+                services. Our expertise extends to the meticulous creation of
+                Fibrous Gypsum Decorative Panels, Gypsum Boards, Dry Lining, GRC
+                (Glass Reinforced Concrete), Acoustic Ceiling Tiles, Painting
+                Flooring, and Woodworks.
+              </p>
+              <p className="mb-4 pb-2 text-justify">
+                At the core of our operations, we uphold a commitment to
+                excellence. Our dedicated team not only possesses a wealth of
+                skills and experience but is also equipped with state-of-the-art
+                tools, a diverse array of shops, a fleet of well-maintained
+                vehicles, and cutting-edge equipment. This comprehensive
+                infrastructure ensures that we are well-prepared to undertake
+                and successfully complete projects of varying scales.
               </p>
               <div className="row g-4 mb-4 pb-2">
                 <div className="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
@@ -68,9 +80,9 @@ const AboutUsMain = () => {
                   </div>
                 </div>
               </div>
-              <a href="" className="btn btn-primary py-3 px-5">
+              {/* <a href="" className="btn btn-primary py-3 px-5">
                 Explore More
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

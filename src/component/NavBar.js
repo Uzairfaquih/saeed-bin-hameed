@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import LanguageDropdown from "./LanguageDropdown";
 
 function NavBar() {
   return (
@@ -9,7 +10,11 @@ function NavBar() {
           to="/"
           className="navbar-brand d-flex align-items-center px-4 px-lg-5"
         >
-          <img src="/img/Al-Beladi-Logo.jpg" className="img-logo"/>
+          <img
+            src="/img/Al-Beladi-Logo.jpg"
+            className="img-logo"
+            alt="Saeed Bin hameed"
+          />
         </Link>
         <button
           type="button"
@@ -28,23 +33,26 @@ function NavBar() {
             <Link to="/about-us" className="nav-item nav-link ">
               About
             </Link>
-            
+
             {/* <Link to="/services" className="nav-item nav-link ">
               Service
             </Link> */}
-           
+
             <Link to="/project" className="nav-item nav-link ">
               Project
             </Link>
-            
+          
+            <Link to="/service" className="nav-item nav-link ">
+              Services
+            </Link>
+
             <Link to="/contact" className="nav-item nav-link ">
               Contact
             </Link>
+           
+            <LanguageDropdown/>
 
           </div>
-          <a href="" className="btn btn-primary py-4 px-lg-5 d-none d-lg-block">
-            Get A Quote<i className="fa fa-arrow-right ms-3"></i>
-          </a>
         </div>
       </nav>
     </>

@@ -8,13 +8,15 @@ function Footer() {
       data-wow-delay="0.1s"
     >
       <div className="container py-5">
-        <div className="row g-5">
-          <div className="col-lg-3 col-md-6">
+        <div className="row g-5 justify-content-around">
+          <div className="col-lg-4 col-md-6 ">
             <h4 className="text-light mb-4">Address</h4>
-            <p className="mb-2">
-              <i className="fa fa-map-marker-alt me-3"></i>123 Street, New York,
-              USA
+            <p className="mb-2" >
+              <i className="fa fa-map-marker-alt me-3"></i>{" "}
+                Saeed Beladi Co Advance Business Center Building, Jeddha Makkah ,
+                <br />Saudi Arabia
             </p>
+          
             <p className="mb-2">
               <i className="fa fa-phone-alt me-3"></i>+966 12 2121234
             </p>
@@ -36,7 +38,7 @@ function Footer() {
               </a>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6">
+          <div className="col-lg-4 col-md-6">
             <h4 className="text-light mb-4">Services</h4>
             <a className="btn btn-link" href="">
               General Carpentry
@@ -54,7 +56,7 @@ function Footer() {
               Custom Carpentry
             </a>
           </div>
-          <div className="col-lg-3 col-md-6">
+          <div className="col-lg-4 col-md-6">
             <h4 className="text-light mb-4">Quick Links</h4>
             <Link to="/about-us" className="btn btn-link">
               About
@@ -63,16 +65,15 @@ function Footer() {
             <Link to="/contact" className="btn btn-link">
               Contact Us
             </Link>
-{/*           
+            {/*           
             <a className="btn btn-link" href="">
               Our Services
             </a> */}
             <a className="btn btn-link" href="">
               Terms & Condition
             </a>
-           
           </div>
-          <div className="col-lg-3 col-md-6">
+          {/* <div className="col-lg-3 col-md-6">
             <h4 className="text-light mb-4">Newsletter</h4>
             <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
             <div
@@ -91,7 +92,7 @@ function Footer() {
                 SignUp
               </button>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="container">

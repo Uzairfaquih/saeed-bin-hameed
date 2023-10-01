@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "./Footer";
 import NavBar from "./NavBar";
-import Header from "./Header";
+// import Header from "./Header";
 import TopBar from "./TopBar";
 import Crousel from "./Crousel";
 import Features from "./Features";
@@ -14,7 +14,7 @@ const Home = () => {
       <TopBar />
       <NavBar />
       <Crousel />
-      <Header />
+      {/* <Header /> */}
       <Features />
       <AboutUsMain />
       <ProjectMain />
