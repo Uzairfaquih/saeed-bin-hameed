@@ -8,7 +8,7 @@ import ProjectTop from "./subcomponents/project/ProjectTop";
 const Projects = () => {
   return (<>
   <TopBar/>
-  <NavBar/>
+  <NavBar active="project"/>
   <ProjectTop/>
   <ProjectMain/>
   <Footer/>

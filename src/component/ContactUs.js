@@ -9,7 +9,7 @@ const ContactUs = () => {
   return (
     <>
     <TopBar/>
-    <NavBar/>
+    <NavBar active="contact"/>
       <ContactTop />
       <ContactMain />
       <Footer/>

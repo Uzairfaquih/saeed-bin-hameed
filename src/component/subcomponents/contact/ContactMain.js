@@ -1,94 +1,113 @@
-import React from "react";
+import React, { useState } from "react";
 
 const ContactMain = () => {
+  
+  const [subject, setSubject] = useState("My subject");
+  const [message, setMessage] = useState("my mesaage");
+
+  const handleSubject =(event)=>{
+    setSubject(event.target.value);
+  }
+  const handleMessage =(event)=>{
+    setMessage(event.target.value);
+  }
+
   return (
     <div
-      class="container-fluid bg-light overflow-hidden px-lg-0"
+      className="container-fluid bg-light overflow-hidden px-lg-0"
       style={{ margin: "6rem 0" }}
     >
-      <div class="container contact px-lg-0">
-        <div class="row g-0 mx-lg-0">
+      <div className="container contact px-lg-0">
+        <div className="row g-0 mx-lg-0">
           <div
-            class="col-lg-6 contact-text py-5 wow fadeIn"
+            className="col-lg-6 contact-text py-5 wow fadeIn"
             data-wow-delay="0.5s"
           >
-            <div class="p-lg-5 ps-lg-0">
-              <div class="section-title text-start">
-                <h1 class="display-5 mb-4">Contact Us</h1>
+            <div className="p-lg-5 ps-lg-0">
+              <div className="section-title text-start">
+                <h1 className="display-5 mb-4">Contact Us</h1>
               </div>
-              <p class="mb-4">
+              <p className="mb-4">
                 {/* The contact form is currently inactive. Get a functional and
                 working contact form with Ajax & PHP in a few minutes. Just copy
                 and paste the files, add a little code and you're done.{" "}
                 <a href="https://htmlcodex.com/contact-form">Download Now</a>. */}
               </p>
-              <form>
-                <div class="row g-3">
-                  <div class="col-md-6">
-                    <div class="form-floating">
+            
+                <div className="row g-3">
+                  <div className="col-md-6">
+                    <div className="form-floating">
                       <input
                         type="text"
-                        class="form-control"
+                        className="form-control"
                         id="name"
                         placeholder="Your Name"
                       />
-                      <label for="name">Your Name</label>
+                      <label htmlFor="name">Your Name</label>
                     </div>
                   </div>
-                  <div class="col-md-6">
-                    <div class="form-floating">
+                  <div className="col-md-6">
+                    <div className="form-floating">
                       <input
                         type="email"
-                        class="form-control"
+                        className="form-control"
                         id="email"
                         placeholder="Your Email"
                       />
-                      <label for="email">Your Email</label>
+                      <label htmlFor="email">Your Email</label>
                     </div>
                   </div>
-                  <div class="col-12">
-                    <div class="form-floating">
+                  <div className="col-12">
+                    <div className="form-floating">
                       <input
                         type="text"
-                        class="form-control"
+                        className="form-control"
                         id="subject"
                         placeholder="Subject"
+                        value={subject}
+                        onChange={handleSubject}
                       />
-                      <label for="subject">Subject</label>
+                      <label htmlFor="subject">Subject</label>
                     </div>
                   </div>
-                  <div class="col-12">
-                    <div class="form-floating">
+                  <div className="col-12">
+                    <div className="form-floating">
                       <textarea
-                        class="form-control"
+                        className="form-control"
                         placeholder="Leave a message here"
                         id="message"
+                        value={message}
+                        onChange={handleMessage}
                         style={{ height: "100px" }}
                       ></textarea>
-                      <label for="message">Message</label>
+                      <label htmlFor="message">Message</label>
                     </div>
                   </div>
-                  <div class="col-12">
-                    <button class="btn btn-primary w-100 py-3" type="submit">
+                  <div className="col-12">
+                    {/* <button onClick ={()=>{
+                      console.log(document.getElementById('subject').value,document.getElementById('message').value);
+                    }}className="btn btn-primary w-100 py-3" type="submit">
                       Send Message
-                    </button>
+                    </button> */}
+                    <a target="blank"  className="btn btn-primary w-100 py-3" href="mailto:example@gmail.com?subject=Your%20Subject&body=Your%20Message%20Here">
+                      Click here to send an email
+                    </a>
                   </div>
                 </div>
-              </form>
+            
             </div>
           </div>
-          <div class="col-lg-6 pe-lg-0" style={{ minHeight: "400px" }}>
-            <div class="position-relative h-100">
+          <div className="col-lg-6 pe-lg-0" style={{ minHeight: "400px" }}>
+            <div className="position-relative h-100">
               <iframe
-                class="position-absolute w-100 h-100"
+                className="position-absolute w-100 h-100"
                 style={{ objectFit: "cover" }}
                 src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1856.0469221232038!2d39.18388323853866!3d21.504043840573953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sCo%20Advance%20Business%20Center%20Building%20Sharafya%20Jeddah%2C%20Jeddah%2C%20Makkah%2022234%2C%20Saudi%20Arabia!5e0!3m2!1sen!2sin!4v1696168734192!5m2!1sen!2sin"
-                frameborder="0"
-                allowfullscreen=""
+                frameBorder="0"
+                allowFullScreen=""
                 aria-hidden="false"
-                tabindex="0"
+                tabIndex="0"
               ></iframe>
-
             </div>
           </div>
         </div>

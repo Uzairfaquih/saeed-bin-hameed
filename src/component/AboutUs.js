@@ -10,7 +10,7 @@ import Team from "./Team";
 const AboutUs = () => {
   return (<>
     <TopBar/>
-    <NavBar/>
+    <NavBar active="about"/>
     <AboutUsTop/>
     <Features/>
     <AboutUsMain/>

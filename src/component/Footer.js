@@ -13,11 +13,13 @@ function Footer() {
             <h4 className="text-light mb-4">Address</h4>
             <p className="mb-2" >
               <i className="fa fa-map-marker-alt me-3"></i>{" "}
-                Saeed Beladi Co Advance Business Center Building, Jeddha Makkah ,
-                <br />Saudi Arabia
+              SBCC, 7953, Advance Business
+            </p>
+            <p>
+            Center Building , Jeddah, Saudi Arabia
             </p>
           
-            <p className="mb-2">
+            <p className="mb-2 me-3">
               <i className="fa fa-phone-alt me-3"></i>+966 12 2121234
             </p>
             <p className="mb-2">
@@ -41,20 +43,20 @@ function Footer() {
           <div className="col-lg-4 col-md-6">
             <h4 className="text-light mb-4">Services</h4>
             <a className="btn btn-link" href="">
-              General Carpentry
+            GYPSUM AND CEILING TILES WORKS
             </a>
             <a className="btn btn-link" href="">
-              Furniture Remodeling
+            MARBLE AND CERAMIC TILES
             </a>
             <a className="btn btn-link" href="">
-              Wooden Floor
+            PAINTING WORKS
             </a>
             <a className="btn btn-link" href="">
-              Wooden Furniture
+            WOOD WORKS
             </a>
-            <a className="btn btn-link" href="">
+            {/* <a className="btn btn-link" href="">
               Custom Carpentry
-            </a>
+            </a> */}
           </div>
           <div className="col-lg-4 col-md-6">
             <h4 className="text-light mb-4">Quick Links</h4>
@@ -102,6 +104,13 @@ function Footer() {
               &copy;{" "}
               <a className="border-bottom" href="#">
                 Saeed Bin Hameed Al-Beladi Company
+              </a>
+              , All Right Reserved.
+            </div>
+            <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
+              {/* &copy;{" "} */}
+              <a className="border-bottom" href="#">
+              Developed by Uzair Faquih
               </a>
               , All Right Reserved.
             </div>

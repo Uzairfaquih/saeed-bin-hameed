@@ -13,10 +13,10 @@ const ServiceMain = () => {
                     <div className="overflow-hidden">
                         <img className="img-fluid" src="img/service-1.jpg" alt="Saeed Bin Hameed"/>
                     </div>
-                    <div className="p-4 text-center border border-5 border-light border-top-0">
-                        <h4 className="mb-3">General Carpentry</h4>
-                        <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                        <a className="fw-medium" href="">Read More<i className="fa fa-arrow-right ms-2"></i></a>
+                    <div className="p-4 text-center border border-5 border-light border-top-0" style= {{height:"100px"}}   >
+                        <h4 className="mb-3">GYPSUM AND CEILING TILES WORKS</h4>
+                        {/* <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                        <a className="fw-medium" href="">Read More<i className="fa fa-arrow-right ms-2"></i></a> */}
                     </div>
                 </div>
             </div>
@@ -25,10 +25,10 @@ const ServiceMain = () => {
                     <div className="overflow-hidden">
                         <img className="img-fluid" src="img/service-2.jpg" alt="Saeed Bin Hameed"/>
                     </div>
-                    <div className="p-4 text-center border border-5 border-light border-top-0">
-                        <h4 className="mb-3">Furniture Manufacturing</h4>
-                        <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                        <a className="fw-medium" href="">Read More<i className="fa fa-arrow-right ms-2"></i></a>
+                    <div className="p-4 text-center border border-5 border-light border-top-0" style= {{height:"100px"}}   >
+                        <h4 className="mb-3">MARBLE AND CERAMIC TILES</h4>
+                        {/* <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                        <a className="fw-medium" href="">Read More<i className="fa fa-arrow-right ms-2"></i></a> */}
                     </div>
                 </div>
             </div>
@@ -37,10 +37,10 @@ const ServiceMain = () => {
                     <div className="overflow-hidden">
                         <img className="img-fluid" src="img/service-3.jpg" alt="Saeed Bin Hameed"/>
                     </div>
-                    <div className="p-4 text-center border border-5 border-light border-top-0">
-                        <h4 className="mb-3">Furniture Remodeling</h4>
-                        <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                        <a className="fw-medium" href="">Read More<i className="fa fa-arrow-right ms-2"></i></a>
+                    <div className="p-4 text-center border border-5 border-light border-top-0" style= {{height:"100px"}}   >
+                        <h4 className="mb-3">PAINTING WORKS</h4>
+                        {/* <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                        <a className="fw-medium" href="">Read More<i className="fa fa-arrow-right ms-2"></i></a> */}
                     </div>
                 </div>
             </div>
@@ -49,14 +49,14 @@ const ServiceMain = () => {
                     <div className="overflow-hidden">
                         <img className="img-fluid" src="img/service-4.jpg" alt="Saeed Bin Hameed"/>
                     </div>
-                    <div className="p-4 text-center border border-5 border-light border-top-0">
-                        <h4 className="mb-3">Wooden Floor</h4>
-                        <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                        <a className="fw-medium" href="">Read More<i className="fa fa-arrow-right ms-2"></i></a>
+                    <div className="p-4 text-center border border-5 border-light border-top-0" style= {{height:"100px"}}   >
+                        <h4 className="mb-3">WOOD WORKS</h4>
+                        {/* <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                        <a className="fw-medium" href="">Read More<i className="fa fa-arrow-right ms-2"></i></a> */}
                     </div>
                 </div>
             </div>
-            <div className="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+            {/* <div className="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
                 <div className="service-item">
                     <div className="overflow-hidden">
                         <img className="img-fluid" src="img/service-5.jpg" alt="Saeed Bin Hameed"/>
@@ -79,7 +79,7 @@ const ServiceMain = () => {
                         <a className="fw-medium" href="">Read More<i className="fa fa-arrow-right ms-2"></i></a>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     </div>
 </div>
