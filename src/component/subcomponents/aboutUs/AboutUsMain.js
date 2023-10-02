@@ -9,8 +9,8 @@ const AboutUsMain = () => {
             <div className="position-relative h-100">
               <img
                 className="position-absolute img-fluid w-100 h-100"
-                src="img/about.jpg"
-                style={{ objectFit: "cover" }}
+                src="img/carousel-6.jpg"
+                style={{ objectFit: "fill" }}
                 alt=""
               />
             </div>

@@ -105,7 +105,7 @@ const ProjectMain = () => {
               >
                 <p className="text-primary fw-medium mb-2"></p>
                 <h5 className="lh-base mb-0">
-                  SAEED AL GHREB VILLA AMER FAWAZ-JEDDAH
+                  SAEED AL GHREB VILLA <br />AMER FAWAZ-JEDDAH
                 </h5>
               </div>
             </div>
