@@ -17,7 +17,7 @@ const year = today.getFullYear();
             <h4 className="text-light mb-4">Address</h4>
             <p className="mb-2" >
               <i className="fa fa-map-marker-alt me-3"></i>{" "}
-              SBCC, 7953, Advance Business
+              SBC, 7953, Advance Business
             </p>
             <p>
             Center Building , Jeddah, Saudi Arabia

@@ -2,6 +2,8 @@ import React from 'react'
 
 const TopBar = () => {
   return (
+
+    <>
     <div className="container-fluid bg-light p-0">
     <div className="row gx-0 d-none d-lg-flex">
         <div className="col-lg-7 px-5 text-start">
@@ -28,6 +30,8 @@ const TopBar = () => {
         </div>
     </div>
 </div>
+</>
+
   )
 }
 

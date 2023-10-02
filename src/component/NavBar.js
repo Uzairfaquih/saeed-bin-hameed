@@ -50,6 +50,10 @@ function NavBar(props) {
             <Link to="/contact" className={`nav-item nav-link ${(props.active=="contact")?('active'):('')}`}>
               Contact
             </Link>
+            
+            <Link to="/company-profile" className={`nav-item nav-link ${(props.active=="company-profile")?('active'):('')}`}>
+              Company Profile
+            </Link>
            
             {/* <LanguageDropdown/> */}
 

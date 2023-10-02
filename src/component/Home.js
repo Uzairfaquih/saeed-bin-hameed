@@ -13,7 +13,6 @@ const Home = () => {
     <>
       <TopBar />
       <NavBar active="home"/>
-      {/* <Crousel /> */}
       <Header />
       <Features />
       <AboutUsMain />

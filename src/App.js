@@ -8,6 +8,7 @@ import AboutUs from "./component/AboutUs";
 import Projects from './component/Projects';
 import ContactUs from "./component/ContactUs";
 import Services from "./component/Services";
+import CompanyProfile from "./component/CompanyProfile";
 
 
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/project" element={<Projects/>}/>
         <Route path="/contact" element={<ContactUs/>}/>
         <Route path="/service" element={<Services/>}/>
+        <Route path="/company-profile" element={<CompanyProfile/>}/>
       </Routes>
     </BrowserRouter>
     </>
