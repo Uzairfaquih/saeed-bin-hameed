@@ -71,13 +71,15 @@ const year = today.getFullYear();
             <Link to="/contact" className="btn btn-link">
               Contact Us
             </Link>
+          
+            <Link to="/company-profile" className="btn btn-link">
+              Company Profile
+            </Link>
             {/*           
             <a className="btn btn-link" href="">
               Our Services
             </a> */}
-            <a className="btn btn-link" href="">
-              Terms & Condition
-            </a>
+          
           </div>
           {/* <div className="col-lg-3 col-md-6">
             <h4 className="text-light mb-4">Newsletter</h4>
