@@ -2,6 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 function Footer() {
+  const today = new Date();
+
+// Extract year, month, and day
+const year = today.getFullYear();
   return (
     <div
       className="container-fluid bg-dark text-light footer mt-5 pt-5 wow fadeIn"
@@ -103,16 +107,15 @@ function Footer() {
             <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
               &copy;{" "}
               <a className="border-bottom" href="#">
-                Saeed Bin Hameed Al-Beladi Company
+               {year}  , All Right Reserved. Saeed Bin Hameed Al-Beladi Company
               </a>
-              , All Right Reserved.
+             
             </div>
             <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
               {/* &copy;{" "} */}
               <a className="border-bottom" href="#">
               Developed by Uzair Faquih
               </a>
-              , All Right Reserved.
             </div>
           </div>
         </div>
