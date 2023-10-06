@@ -2,8 +2,8 @@ import React, { useState } from "react";
 
 const ContactMain = () => {
   
-  const [subject, setSubject] = useState("My subject");
-  const [message, setMessage] = useState("my mesaage");
+  const [subject, setSubject] = useState("");
+  const [message, setMessage] = useState("");
 
   const handleSubject =(event)=>{
     setSubject(event.target.value);

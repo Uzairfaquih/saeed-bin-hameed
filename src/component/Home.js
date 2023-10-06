@@ -6,7 +6,7 @@ import TopBar from "./TopBar";
 // import Crousel from "./Crousel";
 import Features from "./Features";
 import AboutUsMain from "./subcomponents/aboutUs/AboutUsMain";
-import  ProjectMain  from "./subcomponents/project/ProjectMain";
+
 
 const Home = () => {
   return (
@@ -16,7 +16,6 @@ const Home = () => {
       <Header />
       <Features />
       <AboutUsMain />
-      <ProjectMain />
       <Footer />
     </>
   );

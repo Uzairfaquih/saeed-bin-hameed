@@ -27,7 +27,7 @@ const year = today.getFullYear();
               <i className="fa fa-phone-alt me-3"></i>+966 12 2121234
             </p>
             <p className="mb-2">
-              <i className="fa fa-envelope me-3"></i>info@example.com
+              <i className="fa fa-envelope me-3"></i>info@s-b-bc.co
             </p>
             {/* <div className="d-flex pt-2">
               <a className="btn btn-outline-light btn-social" href="">
@@ -46,18 +46,20 @@ const year = today.getFullYear();
           </div>
           <div className="col-lg-4 col-md-6">
             <h4 className="text-light mb-4">Services</h4>
-            <a className="btn btn-link" href="">
+            <Link to="/service" className="btn btn-link" href="">
             GYPSUM AND CEILING TILES WORKS
-            </a>
-            <a className="btn btn-link" href="">
+            </Link>
+            <Link to="/service" className="btn btn-link" href="">
             MARBLE AND CERAMIC TILES
-            </a>
-            <a className="btn btn-link" href="">
+            </Link>
+            <Link to="/service" className="btn btn-link" href="">
             PAINTING WORKS
-            </a>
-            <a className="btn btn-link" href="">
+            </Link>
+            <Link to="/service" className="btn btn-link" href="">
             WOOD WORKS
-            </a>
+
+            </Link>
+          
             {/* <a className="btn btn-link" href="">
               Custom Carpentry
             </a> */}
