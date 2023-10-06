@@ -139,7 +139,7 @@ const Header = () => {
     </div>
     <div className="carousel-inner">
       <div className="carousel-item active" data-bs-interval="2000">
-        <img src="img/interior5.jpg" className="d-block w-100" alt="Saeed Bin Hameed"/>
+        <img src="img/interior6.jpg" className="d-block w-100" alt="Saeed Bin Hameed"/>
         <div className="carousel-caption d-none d-md-block">
           {/* <h5>First slide label</h5>
           <p>Some representative placeholder content for the first slide.</p> */}

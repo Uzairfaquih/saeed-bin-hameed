@@ -9,7 +9,7 @@ const AboutUsMain = () => {
             <div className="position-relative h-50">
               <img
                 className="position-absolute img-fluid w-100 h-100"
-                src="img/carousel-6.jpg"
+                src="img/carousel-7.jpg"
                 style={{ objectFit: "fill" }}
                 alt=""
               />
@@ -17,49 +17,50 @@ const AboutUsMain = () => {
             <div className="position-relative h-50">
               <img
                 className="position-absolute img-fluid w-100 h-100"
-                src="img/carousel-5.jpg"
+                src="img/carousel-8.jpg"
                 style={{ objectFit: "fill" }}
                 alt=""
               />
             </div>
           </div>
-          <div className="col-lg-8 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
+          <div
+            className="col-lg-8 about-text py-5 wow fadeIn"
+            data-wow-delay="0.5s"
+          >
             <div className="p-lg-5 pe-lg-0">
               <div className="section-title text-start">
                 <h1 className="display-5 mb-4">About Us</h1>
               </div>
               <p className="mb-4 pb-2 text-justify">
-                Saeed Bin Hamed Al Beladi Co. (SBC) for Finishing Work excels in
-                delivering unparalleled craftsmanship across a spectrum of
-                services. Our expertise extends to the meticulous creation of
-                Fibrous Gypsum Decorative Panels, Gypsum Boards, Dry Lining, GRC
-                (Glass Reinforced Concrete), Acoustic Ceiling Tiles, Painting
-                work, Flooring work, and Wood works.
+                <strong>Saeed Bin Hamed Al Beladi Co. (SBC)</strong> for finishing works excels
+                in providing unparalleled craftsmanship through a range of
+                services. Our expertise extends to the meticulous realization of
+                decorative fibrous gypsum boards, plasterboard, dry cladding,
+                acoustic ceiling tiles, painting, flooring, wall and carpentry.
               </p>
               <p className="mb-4 pb-2 text-justify">
-                SAEED BIN HAMED AL BELADI Co. Has a core team of highly skilled
-                technicians and workforce with an average of over (15) years of
-                experience in finishing work in Saudi Arabia and they are
-                composed of Arab, Asian and African. From 2022 to 2023 SAEED BIN
-                HAMED AL BELADI Co. For the finishing works carried out in a
-                shorter time projects in Jeddah: Turkey Al Harby Ubhur, Tayba
-                Market Al Bawadi, Saeed Al Ghreb Villa - Al Amer Fawaz and in
-                Riyadh: Al Subaie-Villa. This work was carried out thanks to its
-                qualified and experienced teams in finishing work and with the
-                service satisfaction defined by each customer.
+                <strong> SAEED BIN HAMED AL BELADI Co.</strong> has a core team of highly skilled
+                technicians and manpower with key personnel with more than (15)
+                years of experience in finishing work in Saudi Arabia and they
+                are composed of Arabs, Asians and Africans.
               </p>
               <p className="mb-4 pb-2 text-justify">
-                We are committed to making our customers more satisfied given
-                market competition, management routinely adapts to the latest
-                market trends and professionally improves its approach to
-                quality service, deadline commitments and customer relations. At
-                the core of our operations, we uphold a commitment to
-                excellence. Our dedicated team not only possesses a wealth of
-                skills and experience but is also equipped with state-of-the-art
-                tools, a diverse array of shops, a fleet of well-maintained
-                vehicles, and cutting-edge equipment. This comprehensive
-                infrastructure ensures that we are well-prepared to undertake
-                and successfully complete projects of varying scales.
+                From 2022 to 2023, <strong>SAEED BIN HAMED AL BELADI Co.</strong> carried out
+                work under shorter deadlines on projects in Jeddah: Turkey Al
+                Harby Ubhur, Tayba Market Al Bawadi, Saeed Al Ghreb Villa - Al
+                Amer Fawaz and in Riyadh: Al Subaie- Villa.
+              </p>
+              <p className="mb-4 pb-2 text-justify">
+                We guarantee you high quality projects, competitive prices and
+                distinguished timing. Our management regularly adapts to the
+                latest market trends and professionally improves its approach to
+                quality service, on-time commitments. At the heart of our
+                operations, we maintain a commitment to excellence. Our
+                dedicated team not only has a wealth of skills and experience,
+                but is also equipped with state-of-the-art tools, a diverse
+                range, a fleet of well-maintained vehicles. This comprehensive
+                infrastructure ensures that we are well prepared to undertake
+                and deliver projects of various sizes.
               </p>
               <div className="row g-4 mb-4 pb-2">
                 <div className="col-sm-6 wow fadeIn" data-wow-delay="0.1s">

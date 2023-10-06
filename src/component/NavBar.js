@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import LanguageDropdown from "./LanguageDropdown";
 
 function NavBar(props) {
-  console.log(props.active);
+  
   return (
     <>
       <nav className="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">

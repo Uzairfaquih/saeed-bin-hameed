@@ -29,7 +29,7 @@ const year = today.getFullYear();
             <p className="mb-2">
               <i className="fa fa-envelope me-3"></i>info@example.com
             </p>
-            <div className="d-flex pt-2">
+            {/* <div className="d-flex pt-2">
               <a className="btn btn-outline-light btn-social" href="">
                 <i className="fab fa-twitter"></i>
               </a>
@@ -42,7 +42,7 @@ const year = today.getFullYear();
               <a className="btn btn-outline-light btn-social" href="">
                 <i className="fab fa-linkedin-in"></i>
               </a>
-            </div>
+            </div> */}
           </div>
           <div className="col-lg-4 col-md-6">
             <h4 className="text-light mb-4">Services</h4>
@@ -115,7 +115,7 @@ const year = today.getFullYear();
             </div>
             <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
               {/* &copy;{" "} */}
-              <a className="border-bottom" href="#">
+              <a className="border-bottom " href="#">
               Developed by Uzair Faquih
               </a>
             </div>
