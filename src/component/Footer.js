@@ -27,7 +27,7 @@ const year = today.getFullYear();
               <i className="fa fa-phone-alt me-3"></i>+966 12 2121234
             </p>
             <p className="mb-2">
-              <i className="fa fa-envelope me-3"></i>info@s-b-bc.co
+              <i className="fa fa-envelope me-3"></i>info@s-b-c.co
             </p>
             {/* <div className="d-flex pt-2">
               <a className="btn btn-outline-light btn-social" href="">

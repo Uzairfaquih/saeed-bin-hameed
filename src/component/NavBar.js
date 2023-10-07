@@ -31,7 +31,7 @@ function NavBar(props) {
               Home
             </Link>
 
-            <Link to="/about-us" className={`nav-item nav-link ${(props.active=="about")?('active'):('')}`}>
+            <Link to="/about-us#" className={`nav-item nav-link ${(props.active=="about")?('active'):('')}`}>
               About
             </Link>
 
@@ -39,20 +39,20 @@ function NavBar(props) {
               Service
             </Link> */}
 
-            <Link to="/project" className={`nav-item nav-link ${(props.active=="project")?('active'):('')}`}>
+            <Link to="/project#" className={`nav-item nav-link ${(props.active=="project")?('active'):('')}`}>
               Project
             </Link>
 
                
-            <Link to="/company-profile" className={`nav-item nav-link ${(props.active=="company-profile")?('active'):('')}`}>
+            <Link to="/company-profile#" className={`nav-item nav-link ${(props.active=="company-profile")?('active'):('')}`}>
               Company Profile
             </Link>
           
-            <Link to="/service" className={`nav-item nav-link ${(props.active=="service")?('active'):('')}`}>
+            <Link to="/service#" className={`nav-item nav-link ${(props.active=="service")?('active'):('')}`}>
               Services
             </Link>
 
-            <Link to="/contact" className={`nav-item nav-link ${(props.active=="contact")?('active'):('')}`}>
+            <Link to="/contact#" className={`nav-item nav-link ${(props.active=="contact")?('active'):('')}`}>
               Contact
             </Link>
          
