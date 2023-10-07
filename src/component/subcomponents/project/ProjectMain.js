@@ -33,8 +33,7 @@ const ProjectMain = () => {
                 <div className="portfolio-overlay">
                 <Button className="btn btn-square btn-outline-light mx-1" variant="" onClick={()=>handleShow("project-2.jpg","project-3.jpg","project-4.jpg")}>
                   <i className="fa fa-eye"></i>
-
-      </Button>
+                  </Button>
                 </div>
               </div>
               <div className="border border-5 border-light border-top-0 p-4" style={{ height: "120px" }}>
@@ -46,12 +45,11 @@ const ProjectMain = () => {
           <div className="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.3s">
             <div className="rounded overflow-hidden">
               <div className="position-relative overflow-hidden">
-                <img className="img-fluid w-100" src="img/project-5.jpg" alt="Saeed Bin Hameed"/>
+                <img className="img-fluid w-100" src="img/project-7.jpg" alt="Saeed Bin Hameed"/>
                 <div className="portfolio-overlay">
-                <Button className="btn btn-square btn-outline-light mx-1" variant="" onClick={()=>handleShow("project-6.jpg","project-7.jpg","project-8.jpg")}>
+                <Button className="btn btn-square btn-outline-light mx-1" variant="" onClick={()=>handleShow("project-6.jpg","project-5.jpg","project-8.jpg")}>
                   <i className="fa fa-eye"></i>
-
-      </Button>
+                  </Button>
                   
                 </div>
               </div>
@@ -78,9 +76,7 @@ const ProjectMain = () => {
                 <div className="portfolio-overlay">
                 <Button className="btn btn-square btn-outline-light mx-1" variant="" onClick={()=>handleShow("project-10.jpg","project-11.jpg","project-12.jpg")}>
                   <i className="fa fa-eye"></i>
-
-      </Button>
-                  
+                  </Button>
                 </div>
               </div>
               <div
@@ -99,13 +95,13 @@ const ProjectMain = () => {
               <div className="position-relative overflow-hidden">
                 <img
                   className="img-fluid w-100"
-                  src="img/project-13.jpg"
+                  src="img/project-14.jpg"
                   alt="Saeed Bin Hameed"
                 />
                 <div className="portfolio-overlay">
                   {/* <a className="btn btn-square btn-outline-light mx-1" href="img/project-14.jpg" data-lightbox="portfolio">
                   </a> */}
-                  <Button className="btn btn-square btn-outline-light mx-1" variant="" onClick={()=>handleShow("project-2.jpg","project-3.jpg","project-4.jpg")}>
+                  <Button className="btn btn-square btn-outline-light mx-1" variant="" onClick={()=>handleShow("project-13.jpg","project-15.jpg","project-16.jpg")}>
                   <i className="fa fa-eye"></i>
 
       </Button>

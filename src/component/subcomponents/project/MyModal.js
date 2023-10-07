@@ -9,7 +9,7 @@ const MyModal = ({ show, handleClose , image1 , image2 ,image3}) => {
     <Modal show={show} onHide={handleClose} centered>
       {/* Add the 'centered' prop to the Modal component */}
       <Modal.Header closeButton>
-        <Modal.Title>Modal Title</Modal.Title>
+        {/* <Modal.Title>Modal Title</Modal.Title> */}
       </Modal.Header>
       <Modal.Body>
       <div id="carouselExampleDark" className="carousel carousel-dark slide" data-bs-ride="carousel">
