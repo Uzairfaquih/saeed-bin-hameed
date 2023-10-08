@@ -62,10 +62,7 @@ const ProjectMain = () => {
               </div>
             </div>
           </div>
-          <div
-            className="col-lg-4 col-md-6 portfolio-item first wow fadeInUp"
-            data-wow-delay="0.5s"
-          >
+          <div className="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.5s">
             <div className="rounded overflow-hidden">
               <div className="position-relative overflow-hidden">
                 <img

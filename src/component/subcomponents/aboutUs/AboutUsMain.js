@@ -76,7 +76,7 @@ const AboutUsMain = () => {
                         className="text-primary mb-1"
                         data-toggle="counter-up"
                       >
-                        1234
+                        4
                       </h2>
                       <p className="fw-medium mb-0">Happy Clients</p>
                     </div>
@@ -95,7 +95,7 @@ const AboutUsMain = () => {
                         className="text-primary mb-1"
                         data-toggle="counter-up"
                       >
-                        1234
+                        4
                       </h2>
                       <p className="fw-medium mb-0">Projects Done</p>
                     </div>

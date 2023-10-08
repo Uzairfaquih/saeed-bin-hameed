@@ -13,7 +13,7 @@ const Features = () => {
               >
                 <i className="fa fa-user-check fa-2x text-primary"></i>
               </div>
-              <h1 className="display-1 text-light mb-0">01</h1>
+              {/* <h1 className="display-1 text-light mb-0">01</h1> */}
             </div>
             <h5>Creative Designers</h5>
           </div>
@@ -25,7 +25,7 @@ const Features = () => {
               >
                 <i className="fa fa-check fa-2x text-primary"></i>
               </div>
-              <h1 className="display-1 text-light mb-0">02</h1>
+              {/* <h1 className="display-1 text-light mb-0">02</h1> */}
             </div>
             <h5>Quality Products</h5>
           </div>
@@ -37,7 +37,7 @@ const Features = () => {
               >
                 <i className="fa fa-drafting-compass fa-2x text-primary"></i>
               </div>
-              <h1 className="display-1 text-light mb-0">03</h1>
+              {/* <h1 className="display-1 text-light mb-0">03</h1> */}
             </div>
             <h5>Free Consultation</h5>
           </div>
@@ -49,7 +49,7 @@ const Features = () => {
               >
                 <i className="fa fa-headphones fa-2x text-primary"></i>
               </div>
-              <h1 className="display-1 text-light mb-0">04</h1>
+              {/* <h1 className="display-1 text-light mb-0">04</h1> */}
             </div>
             <h5>Customer Support</h5>
           </div>

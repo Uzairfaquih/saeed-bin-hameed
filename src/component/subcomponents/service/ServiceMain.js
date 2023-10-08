@@ -22,7 +22,7 @@ const ServiceMain = () => {
     <div className="container-xxl py-5">
       <div className="container">
         <div className="section-title text-center">
-          <h1 className="display-5 mb-5">Our Projects</h1>
+          <h1 className="display-5 mb-5">Our Services</h1>
         </div>
 
         <div className="row g-4 portfolio-container">
@@ -39,9 +39,7 @@ const ServiceMain = () => {
               </div>
               <div className="border border-5 border-light border-top-0 p-4" style={{ height: "120px" }}>
                 <p className="text-primary fw-medium mb-2"></p>
-                <h5 className="lh-base mb-0">GYPSUM AND
-CEILING TILE
-WORKS</h5>
+                <h5 className="lh-base mb-0">GYPSUM WORK & CEILING TILE WORK</h5>
               </div>
             </div>
           </div>
@@ -62,7 +60,7 @@ WORKS</h5>
                 style={{ height: "120px" }}
               >
                 <p className="text-primary fw-medium mb-2"></p>
-                <h5 className="lh-base mb-0">MARBLE AND CEILING TILE WORK</h5>
+                <h5 className="lh-base mb-0">CERAMIC TILING WORK & STONE WORK</h5>
               </div>
             </div>
           </div>
@@ -112,7 +110,6 @@ WORKS</h5>
 
       </Button>
 
-      <MyModal show={showModal} handleClose={handleClose} image1={imageUrl1} image2={imageUrl2} image3={imageUrl3} />
                  
                 </div>
               </div>
@@ -125,9 +122,38 @@ WORKS</h5>
               </div>
             </div>
           </div>
+          <div className="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.1s">
+            <div className="rounded overflow-hidden">
+              <div className="position-relative overflow-hidden">
+                <img
+                  className="img-fluid w-100"
+                  src="img/acrylic-work1.jpg"
+                  alt="Saeed Bin Hameed"
+                />
+                <div className="portfolio-overlay">
+                  {/* <a className="btn btn-square btn-outline-light mx-1" href="img/wood-work14.jpg" data-lightbox="portfolio">
+                  </a> */}
+                  <Button className="btn btn-square btn-outline-light mx-1" variant="" onClick={()=>handleShow("acrylic-work2.jpg","acrylic-work3.jpg","acrylic-work4.jpg")}>
+                  <i className="fa fa-eye"></i>
+
+      </Button>
+
+                 
+                </div>
+              </div>
+              <div
+                className="border border-5 border-light border-top-0 p-4"
+                style={{ height: "120px" }}
+              >
+                <p className="text-primary fw-medium mb-2"></p>
+                <h5 className="lh-base mb-0">ACRYLIC WORK</h5>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+    <MyModal show={showModal} handleClose={handleClose} image1={imageUrl1} image2={imageUrl2} image3={imageUrl3} />
     
     </>
   );
