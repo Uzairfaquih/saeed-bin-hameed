@@ -153,7 +153,7 @@ const Header = () => {
         </div>
       </div>
       <div className="carousel-item" data-bs-interval="2000">
-        <img src="img/interior4.jpg" className="d-block w-100" alt="Saeed Bin Hameed"/>
+        <img src="img/interior7.jpg" className="d-block w-100" alt="Saeed Bin Hameed"/>
         <div className="carousel-caption d-none d-md-block">
         <h1>Exclusively Finishing work</h1>
 

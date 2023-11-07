@@ -89,7 +89,7 @@ const ContactMain = () => {
                     }}className="btn btn-primary w-100 py-3" type="submit">
                       Send Message
                     </button> */}
-                    <a target="blank"  className="btn btn-primary w-100 py-3" href="mailto:example@gmail.com?subject=Your%20Subject&body=Your%20Message%20Here">
+                    <a target="blank"  className="btn btn-primary w-100 py-3" href="mailto:info@s-b-c.co?subject=Your%20Subject&body=Your%20Message%20Here">
                       Click here to send an email
                     </a>
                   </div>
