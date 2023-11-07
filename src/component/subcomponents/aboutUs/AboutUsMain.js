@@ -45,7 +45,7 @@ const AboutUsMain = () => {
                 are composed of Arabs, Asians and Africans.
               </p>
               <p className="mb-4 pb-2 text-justify">
-                2022, <strong>SAEED BIN HAMED AL BELADI Co.</strong> carried out
+                From 2022 to 2023, <strong>SAEED BIN HAMED AL BELADI Co.</strong> carried out
                 work under shorter deadlines on projects in Jeddah: Turkey Al
                 Harby Ubhur, Tayba Market Al Bawadi, Saeed Al Ghreb Villa - Al
                 Amer Fawaz and in Riyadh: Al Subaie- Villa.

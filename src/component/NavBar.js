@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import LanguageDropdown from "./LanguageDropdown";
+import LanguageDropdown from "./LanguageDropdown";
 
 function NavBar(props) {
   
@@ -12,7 +12,7 @@ function NavBar(props) {
           className="navbar-brand d-flex align-items-center px-4 px-lg-5"
         >
           <img
-            src="/img/albeladilogo.jpg"
+            src="/img/Al-Beladi-Logo (2).jpg"
             className="img-logo"
             alt="Saeed Bin hameed"
           />
